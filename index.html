@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Home</title>
+<style>
+  body{font:16px/1.5 system-ui, sans-serif; margin:40px auto; max-width:800px; padding:0 16px;}
+  header,footer{opacity:.7}
+  nav a{margin-right:12px}
+  code{background:#f4f4f4; padding:2px 4px; border-radius:4px}
+</style>
+<header>
+  <h1>Your Site</h1>
+  <nav>
+    <a href="/">Home</a>
+    <a href="about.html">About</a>
+    <a href="projects.html">Projects</a>
+  </nav>
+</header>
+<main>
+  <h2>Welcome</h2>
+  <p>This is a minimal GitHub Pages site.</p>
+</main>
+<footer>
+  <p>© <span id="y"></span> Your Name</p>
+</footer>
+<script>document.getElementById("y").textContent=new Date().getFullYear()</script>
+</html>
